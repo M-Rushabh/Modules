@@ -47,3 +47,6 @@ resource "ibm_is_security_group_rule" "sg_rules" {
     }
   }
 }
+  provider ibm
+  {
+  }
