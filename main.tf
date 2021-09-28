@@ -49,7 +49,4 @@ resource "ibm_is_security_group_rule" "sg_rules" {
 }
 provider ibm {
 region = "us-south"
-ibmcloud_api_key="1kwHpwBBIIVTwpiKmLXoBjueajYs8zJ_uz7w-PgQpPoK"
-iaas_classic_username="2131808_sampada.bhelsewale@kyndryl.com"
-iaas_classic_api_key="90046d9de7628e4145d7d3f9c0f26a8415cd5609bf833ecbeb3291b898b7b347"
 }
