@@ -48,3 +48,12 @@ resource "ibm_is_security_group_rule" "sg_rules" {
   }
 }
 
+  
+terraform {
+required_version = ">=0.13"
+ required_providers {
+    ibm = {
+      source = "IBM-Cloud/ibm"
+    }
+}
+}
